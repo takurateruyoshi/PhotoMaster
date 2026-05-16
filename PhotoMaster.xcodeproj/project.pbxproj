@@ -10,9 +10,22 @@
 		1D5EB2212FB851D600378C0C /* PhotoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1D5EB2332FB8529200378C0C /* Exceptions for "PhotoMaster" folder in "PhotoMaster" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1D5EB2202FB851D600378C0C /* PhotoMaster */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1D5EB2232FB851D600378C0C /* PhotoMaster */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1D5EB2332FB8529200378C0C /* Exceptions for "PhotoMaster" folder in "PhotoMaster" target */,
+			);
 			path = PhotoMaster;
 			sourceTree = "<group>";
 		};
@@ -253,6 +266,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "画像を保存";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +299,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "画像を保存";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
